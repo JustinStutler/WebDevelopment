@@ -1,6 +1,8 @@
 body {
-    background-color: rgba(0, 0, 0, 0);
-}
+    height: 100%;
+    background-color: #F9E8D8;
+  }
+  
 
 p, h1, h2, h3, i, hr {
     color: black;
@@ -77,3 +79,39 @@ p, li, .bio {
 .SKILLS, .WORKEXP {
     padding-top: 10px;
 }
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    color: red;
+}
+  
+
+.FixedBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    width: 350px;
+    height: 150px;
+    background-color: #006747;
+    border-width: 8px;
+    border-style: outset;
+    border-color: gold;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 18pt;
+    color: white;
+}
+
